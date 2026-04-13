@@ -51,6 +51,23 @@ Product fields include:
 - Tailwind CSS
 - Firebase Firestore
 
+##  Database Schema (Firestore)
+
+### Collection: products
+
+Each product document contains:
+
+{
+  name: string,
+  sku: string,
+  category: string,
+  quantity: number,
+  purchasePrice: number,
+  sellingPrice: number,
+  createdAt: timestamp,
+  lastUpdated: timestamp
+}
+
 # Setup Instructions
 
 ## 1️ Clone Repository
